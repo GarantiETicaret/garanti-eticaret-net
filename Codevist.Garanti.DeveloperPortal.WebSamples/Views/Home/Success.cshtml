@@ -1,0 +1,21 @@
+﻿@model Codevist.Garanti.DeveloperPortal.Core.Response.Secure3DResponse
+@using Newtonsoft.Json
+@{
+    ViewBag.Title = "Success";
+}
+
+<h2>Success Page</h2>
+<form action="" method="post" class="form-horizontal"></form>
+
+@if (Model != null)
+{
+    <legend><label style="font-weight:bold;width:250px;">3D İşlem Sonucu Bilgileri</label></legend>
+    <pre>
+    @Html.Raw(JsonConvert.SerializeObject(Model, Formatting.Indented))
+    </pre>
+    <br />
+    <legend><label style="font-weight:bold;width:250px;">Provizyon Sonucu Bilgileri</label></legend>
+    <pre>
+        @Html.Raw(Html.Encode(Model.xmlResponse))
+    </pre>
+}

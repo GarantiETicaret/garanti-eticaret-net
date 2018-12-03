@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CEADD517-443A-4F6F-AB1A-43D964598875}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Codevist.Garanti.DeveloperPortal.Core</RootNamespace>
+    <AssemblyName>Codevist.Garanti.DeveloperPortal.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseEntity\Card.cs" />
+    <Compile Include="BaseEntity\CepBankRequest.cs" />
+    <Compile Include="BaseEntity\ChequeRequest.cs" />
+    <Compile Include="BaseEntity\ChequeResponse.cs" />
+    <Compile Include="BaseEntity\Customer.cs" />
+    <Compile Include="BaseEntity\DCC.cs" />
+    <Compile Include="BaseEntity\GSMUnitSalesListRequest.cs" />
+    <Compile Include="BaseEntity\Order.cs" />
+    <Compile Include="BaseEntity\PaymentRequest.cs" />
+    <Compile Include="BaseEntity\RecurringRequest.cs" />
+    <Compile Include="BaseEntity\Response.cs" />
+    <Compile Include="BaseEntity\RewardRequest.cs" />
+    <Compile Include="BaseEntity\RewardResponse.cs" />
+    <Compile Include="BaseEntity\Settings3D.cs" />
+    <Compile Include="BaseEntity\SettlementInq.cs" />
+    <Compile Include="BaseEntity\Terminal.cs" />
+    <Compile Include="BaseEntity\Transaction.cs" />
+    <Compile Include="BaseEntity\TransactionResponse.cs" />
+    <Compile Include="BaseEntity\TransactionTypeEnum.cs" />
+    <Compile Include="BaseEntity\UtilityPaymentListRequest.cs" />
+    <Compile Include="BaseEntity\Verification.cs" />
+    <Compile Include="BaseEntity\VPOSResponse.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request\BatchInqRequest.cs" />
+    <Compile Include="Request\BINInqRequest.cs" />
+    <Compile Include="Request\BonusPayInqRequest.cs" />
+    <Compile Include="Request\BonusPayRequest.cs" />
+    <Compile Include="Request\BonusPayVoidRequest.cs" />
+    <Compile Include="Request\CardtxnListInqRequest.cs" />
+    <Compile Include="Request\CepBankInqRequest.cs" />
+    <Compile Include="Request\CommercialCardExtendedCreditRequest.cs" />
+    <Compile Include="Request\CommercialCardLimitInqRequest.cs" />
+    <Compile Include="Request\CommercialCardPreauthRequest.cs" />
+    <Compile Include="Request\DccInquiryRequest.cs" />
+    <Compile Include="Request\DCCSalesRequest.cs" />
+    <Compile Include="Request\DelaySalesRequest.cs" />
+    <Compile Include="Request\DownPaymentSalesRequest.cs" />
+    <Compile Include="Request\ExtendedCreditInquiryRequest.cs" />
+    <Compile Include="Request\ExtentedCreditSalesRequest.cs" />
+    <Compile Include="Request\ExtrePostauthRequest.cs" />
+    <Compile Include="Request\ExtrePreauthRequest.cs" />
+    <Compile Include="Request\FirmCardPreauthRequest.cs" />
+    <Compile Include="Request\FirmCardRelRequest.cs" />
+    <Compile Include="Request\FirmCardSalesRequest.cs" />
+    <Compile Include="Request\FirmRewardSalesRequest.cs" />
+    <Compile Include="Request\GarantiPayAppRequest.cs" />
+    <Compile Include="Request\GarantiPayMORequest.cs" />
+    <Compile Include="Request\GarantiPayRequest.cs" />
+    <Compile Include="Request\GarantiPayVoidRequest.cs" />
+    <Compile Include="Request\GsmUnitInqRequest.cs" />
+    <Compile Include="Request\GsmUnitSalesRequest.cs" />
+    <Compile Include="Request\IdentityInqRequest.cs" />
+    <Compile Include="Request\InstallmentSalesRequest.cs" />
+    <Compile Include="Request\OrderHistoryInqRequest.cs" />
+    <Compile Include="Request\OrderInqRequest.cs" />
+    <Compile Include="Request\OrderItemInqRequest.cs" />
+    <Compile Include="Request\OrderListInqRequest.cs" />
+    <Compile Include="Request\PlayerChequeSalesRequest.cs" />
+    <Compile Include="Request\PostauthRequest.cs" />
+    <Compile Include="Request\PreauthRequest.cs" />
+    <Compile Include="Request\ProductChequeRequest.cs" />
+    <Compile Include="Request\RecurringSalesRequest.cs" />
+    <Compile Include="Request\RecurringUpdateRequest.cs" />
+    <Compile Include="Request\RecurringVoidRequest.cs" />
+    <Compile Include="Request\RefundRequest.cs" />
+    <Compile Include="Request\RewardingRequest.cs" />
+    <Compile Include="BaseEntity\VPOSRequest.cs" />
+    <Compile Include="Request\RewardInquiryRequest.cs" />
+    <Compile Include="Request\RewardSalesRequest.cs" />
+    <Compile Include="Request\Sale3DOOSPayRequest.cs" />
+    <Compile Include="Request\Sale3DPayRequest.cs" />
+    <Compile Include="Request\Sale3DSecureRequest.cs" />
+    <Compile Include="Request\SaleOOSPayRequest.cs" />
+    <Compile Include="Request\SalesRequest.cs" />
+    <Compile Include="Request\SalesWithAddressInfoRequest.cs" />
+    <Compile Include="Request\SalesWithCommentInfoRequest.cs" />
+    <Compile Include="Request\SalesWithProductInfoRequest.cs" />
+    <Compile Include="Request\Secure3DCompleteRequest.cs" />
+    <Compile Include="Request\SettlementInqRequest.cs" />
+    <Compile Include="Request\SMSPostauthRequest.cs" />
+    <Compile Include="Request\SMSPreauthRequest.cs" />
+    <Compile Include="Request\UtilityPaymentInqRequest.cs" />
+    <Compile Include="Request\UtilityPaymentRequest.cs" />
+    <Compile Include="Request\VoidRequest.cs" />
+    <Compile Include="Request\VRecurringSalesRequest.cs" />
+    <Compile Include="Response\RewardingResponse.cs" />
+    <Compile Include="Response\SalesResponse.cs" />
+    <Compile Include="Response\Secure3DResponse.cs" />
+    <Compile Include="Response\ServicesXmlResponse.cs" />
+    <Compile Include="RestHttpCaller.cs" />
+    <Compile Include="BaseEntity\Settings.cs" />
+    <Compile Include="XmlBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

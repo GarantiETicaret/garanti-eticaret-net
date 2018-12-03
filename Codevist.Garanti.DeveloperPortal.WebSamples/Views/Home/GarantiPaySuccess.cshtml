@@ -1,0 +1,17 @@
+﻿@model Codevist.Garanti.DeveloperPortal.Core.Response.ServicesXmlResponse
+
+@{
+    ViewBag.Title = "GarantiPaySuccess";
+}
+
+<h2>Success Page</h2>
+
+<form action="" method="post" class="form-horizontal"></form>
+<legend><label style="font-weight:bold;width:250px;">İşlem Sonucu Bilgileri</label></legend>
+
+@if (Model != null)
+{
+    <pre>
+        @Html.Raw(Html.Encode(Model.XmlResponse))
+    </pre>
+}

@@ -1,0 +1,61 @@
+﻿
+
+@model Codevist.Garanti.DeveloperPortal.Core.Response.ServicesXmlResponse
+
+@{
+    ViewBag.Title = "BonusPay";
+}
+
+<h2>BonusPay </h2>
+<br />
+<fieldset>
+
+    <legend><label style="font-weight:bold;width:250px;">İşlem Bilgileri</label></legend>
+    <label style="font-weight:bold;">İşlem Tipi &nbsp; :   &nbsp; </label> Sales<br>
+    <label style="font-weight:bold;">Terminal ID &nbsp; :&nbsp; </label> 30691297 <br>
+    <label style="font-weight:bold;">MerchantID  &nbsp;:   &nbsp;</label> 7000679 <br>
+    <label style="font-weight:bold;">ProvUserID &nbsp;:  &nbsp;</label> PROVAUT <br>
+    <label style="font-weight:bold;">UserID &nbsp;:  &nbsp;</label> PROVAUT<br>
+
+</fieldset>
+<form action="" method="post" class="form-horizontal">
+    <fieldset>
+        <!-- Form Name -->
+        <legend><label style="font-weight:bold;width:250px;">Bonus Pay Bilgileri</label></legend>
+        <!-- Text input-->
+       
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="">  Ödeme Tipi:</label>
+            <div class="col-md-4">
+                <input value="K" name="paymentType" class="form-control input-md">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="">  GSM Numarası: </label>
+            <div class="col-md-4">
+                <input value="" name="gsmNumber" class="form-control input-md">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="">  İşlem Tutarı:</label>
+            <div class="col-md-4">
+                <input value="100" name="transactionAmount" class="form-control input-md">
+            </div>
+        </div>
+    </fieldset>
+    <!-- Button -->
+    <div class="form-group">
+        <label class="col-md-4 control-label" for=""></label>
+        <div class="col-md-4">
+            <button type="submit" id="" name="" class="btn btn-danger"> Ödeme Yap</button>
+        </div>
+    </div>
+</form>
+
+@if (Model != null)
+{
+    <pre>
+        @Html.Raw(Html.Encode(Model.XmlResponse))
+    </pre>
+}
+

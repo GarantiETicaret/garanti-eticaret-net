@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Garanti Developer Portal</title>
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet" />
+    <!-- Our Custom CSS -->
+    <link href="~/Assets/css/style.css" rel="stylesheet" />
+    <link rel="icon" href="~/favicon.ico">
+    <!-- Scrollbar Custom CSS -->
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="/"><img src="~/Assets/img/logo.png" width="165" height="90" /></a>
+                
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">İşlem Servisleri</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+
+                        <li><a href="@Url.Action("Sales","Home")">Satış (Sales)</a></li>
+                        <li><a href="@Url.Action("SalesWithProductInfo","Home")">Ürün Bilgisi ile Satış İşlemi</a></li>
+                        <li><a href="@Url.Action("SalesWithAddressInfo","Home")">Adres Bilgisi ile Satış İşlemi</a></li>
+                        <li><a href="@Url.Action("SalesWithCommentInfo","Home")">Özel Alan Bilgisi ile Satış İşlemi</a></li>
+                        <li><a href="@Url.Action("InstallmentSales","Home")">Taksitli Satış</a></li>
+                        <li><a href="@Url.Action("Void","Home")">İptal (Void)</a></li>
+                        <li><a href="@Url.Action("Refund","Home")">İade (Refund)</a></li>
+                        <li><a href="@Url.Action("DelaySales","Home")">Ötemeli Satış</a></li>
+
+                        <li><a href="@Url.Action("DownPaymentSales","Home")">Peşinatlı Satış</a></li>
+                        <li><a href="@Url.Action("RewardSales","Home")">Bonus Kullanım</a></li>
+                        <li><a href="@Url.Action("FirmRewardSales","Home")">Firma Bonus</a></li>
+                        <li><a href="@Url.Action("PlayerChequeSales","Home")">Player Çek</a></li>
+                        <li><a href="@Url.Action("ProductCheque","Home")">Sözünüze Ürün Çek</a></li>
+                        <li><a href="@Url.Action("Preauth","Home")">Ön Otorizasyon (preauth)</a></li>
+                        <li><a href="@Url.Action("Postauth","Home")">Ön Otorizasyon Kapama (postauth)</a></li>
+                        <li><a href="@Url.Action("ExtentedCreditSales","Home")">Tüketici Kredisi (extentedcredit)</a></li>
+                        <li><a href="@Url.Action("DCCSales","Home")">DCC Satış (DCC)</a></li>
+
+                        <li><a href="@Url.Action("ExtrePreauth","Home")">Ekstre Doğrulama/Ön Otorizasyon</a></li>
+                        <li><a href="@Url.Action("ExtrePostauth","Home")">Ekstre Doğrulama/Otorizasyon Kapama</a></li>
+
+                        <li><a href="@Url.Action("FirmCardRel","Home")">Firma Kart Eşleştirme (firmcardrel)</a></li>
+                        <li><a href="@Url.Action("FirmCardSales","Home")">Firma Kart İle Satış (firmcardsales)</a></li>
+                        <li><a href="@Url.Action("FirmCardPreauth","Home")">Firma Ön otorizasyon (firmcardpreauth)</a></li>
+
+                        <li><a href="@Url.Action("CommercialCardExtendedCredit","Home")">Ortak Kart Satış (commercialcardextendedcredit)</a></li>
+                        <li><a href="@Url.Action("CommercialCardPreauth","Home")">Ortak Kart Ön Otorizasyon (commercialcardpreauth)</a></li>
+                        <li><a href="@Url.Action("SMSPreauth","Home")">Sms Doğrulama/Ön Otorizasyon</a></li>
+                        <li><a href="@Url.Action("SMSPostauth","Home")">Sms Doğrulama/Otorizasyon Kapama</a></li>
+
+                        <li><a href="@Url.Action("RecurringSales","Home")">Sabit Tekrarlayan Satış</a></li>
+                        <li><a href="@Url.Action("VRecurringSales","Home")">Değişken Tekrarlayan Satış</a></li>
+
+                        <li><a href="@Url.Action("RecurringVoid","Home")">Tekrarlayan İptal</a></li>
+
+                        <li><a href="@Url.Action("RecurringUpdate","Home")">Tekrarlayan Update</a></li>
+
+                        <li><a href="@Url.Action("UtilityPayment","Home")">Fatura Ödeme (utilitypayment)</a></li>
+                        <li><a href="@Url.Action("GsmUnitSales","Home")">GSM TL Yükleme (gsmunitsales)</a></li>
+                        @*<li><a href="@Url.Action("BonusPay","Home")">BonusPay (cepbank)</a></li>
+                        <li><a href="@Url.Action("BonusPayVoid","Home")">BonusPay İptal (cepbankvoid)</a></li>*@
+
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Host Sorgu Servisleri</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+
+                        <li><a href="@Url.Action("RewardInquiry","Home")">Bonus Sorgulama</a></li>
+                        <li><a href="@Url.Action("ExtendedCreditInquiry","Home")">Tüketici Kredisi Sorgulama</a></li>
+                        <li><a href="@Url.Action("CommercialCardLimitInq","Home")">Ortak Kart Limit Sorgulama</a></li>
+                        <li><a href="@Url.Action("DccInquiry","Home")">DCC Doğrulama</a></li>
+                        <li><a href="@Url.Action("UtilityPaymentInq","Home")">Fatura Sorgu</a></li>
+                        <li><a href="@Url.Action("GsmUnitInq","Home")">GSM TL Sorgu</a></li>
+                        @*<li><a href="@Url.Action("BonusPayInq","Home")">BonusPay Bonus Sorgu</a></li>*@
+                        <li><a href="@Url.Action("IdentityInq","Home")">TCKN Doğrulama</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false">Sanal POS Sorgulamaları</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu2">
+
+                        <li><a href="@Url.Action("OrderInq","Home")">Sipariş Sorgu</a></li>
+                        <li><a href="@Url.Action("OrderHistoryInq","Home")">Sipariş Detay Sorgu</a></li>
+                        <li><a href="@Url.Action("OrderListInq","Home")">Tarih Aralığı İşlem Sorgu</a></li>
+                        <li><a href="@Url.Action("BatchInq","Home")">Batch Sorgulama</a></li>
+                        <li><a href="@Url.Action("BINInq","Home")">BIN Sorgulama</a></li>
+                        <li><a href="@Url.Action("OrderItemInq","Home")">Ürün Sorgulama</a></li>
+                        <li><a href="@Url.Action("CardtxnListInq","Home")">KartNo ile İşlem Sorgulama</a></li>
+                        <li><a href="@Url.Action("SettlementInq","Home")">Gün Sonu Sorgulama (settlementinq)</a></li>
+                        @*<li><a href="@Url.Action("Index","Home")">BonusPay İşlem Sorgu</a></li>*@
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false">3D Secure İşlemler</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu3">
+                        <li><a href="@Url.Action("Sale3DSecure","Home")">3D Secure İşlem</a></li>
+                        <li><a href="@Url.Action("Sale3DOOSPay","Home")">3D OOS Ödeme</a></li>
+                        <li><a href="@Url.Action("Sale3DPay","Home")">3D Pay Ödeme</a></li>
+                        <li><a href="@Url.Action("SaleOOSPay","Home")">OOS Pay Ödeme</a></li>
+                        <li><a href="@Url.Action("GarantiPay","Home")">Garanti Pay Ödeme</a></li>
+                        <li><a href="@Url.Action("GarantiPayMO","Home")">Garanti Pay Mail Order ile Ödeme</a></li>
+                        <li><a href="@Url.Action("GarantiPayVoid","Home")">Garanti Pay İşlem İptali</a></li>
+                        <li><a href="@Url.Action("GarantiPayApp","Home")">Garanti Pay App ile Ödeme</a></li>
+                    </ul>
+                </li>
+                <li>
+               
+              
+                
+            </ul>  
+        </nav>
+        <div id="content">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                            <i class="glyphicon glyphicon-align-left"></i>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            @RenderBody()
+          
+        </div>        
+    </div>
+    <script src="~/Assets/js/jquery-1.10.2.min.js"></script>
+    <script src="~/Assets/js/bootstrap.min.js"></script>
+    <script src="~/Assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    @RenderSection("Plugins", false/*required*/)
+    <!--End Begin Page Level Plugin-->
+    @RenderSection("Scripts", false/*required*/)
+    <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+    </script>
+
+</body>
+</html>

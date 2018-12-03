@@ -1,0 +1,16 @@
+﻿@model Codevist.Garanti.DeveloperPortal.Core.Response.ServicesXmlResponse
+
+
+@{
+    ViewBag.Title = "OOSSuccess";
+}
+
+<h2>OOS İşlem Başarılı</h2>
+<legend><label style="font-weight:bold;width:250px;">3D İşlem Sonucu Bilgileri</label></legend>
+
+@if (Model != null)
+{
+    <pre>
+        @Html.Raw(Html.Encode(Model.XmlResponse))
+    </pre>
+}
