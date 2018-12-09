@@ -16,7 +16,7 @@ namespace Codevist.Garanti.DeveloperPortal.Core
 
         /// <summary>
         ///success url sayfası içerisinde HashParam  değerinin doğruluğunu kontrol etmek amacıyla oluşturulan  Verilen string'i SHA1 ile hashleyip Base64 formatına çeviren fonksiyondur. 
-        /// CreateToken'dan farklı olarak token oluşturmaz sadece hassh hesaplar
+        /// CreateToken'dan farklı  olarak token oluşturmaz sadece hassh hesaplar
         /// </summary>
         /// <param name="hashString"></param>
         /// <returns></returns>
