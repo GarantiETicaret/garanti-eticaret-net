@@ -20,5 +20,9 @@ namespace Codevist.Garanti.DeveloperPortal.Core.BaseEntity
         public string FrequencyInterval { get; set; }
         [XmlElement(ElementName = "StartDate")]
         public string StartDate { get; set; }
+        [XmlElement(ElementName = "RecurringRetryAttemptCount")]
+        public string RecurringRetryAttemptCount { get; set; }
+        [XmlElement(ElementName = "RetryAttemptEmail")]
+        public string RetryAttemptEmail { get; set; }
     }
 }

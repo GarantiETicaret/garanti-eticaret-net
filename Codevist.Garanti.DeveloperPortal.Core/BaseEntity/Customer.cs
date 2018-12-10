@@ -7,7 +7,7 @@ namespace Codevist.Garanti.DeveloperPortal.Core.BaseEntity
     {
         [XmlElement(ElementName = "IPAddress")]
         public string IPAddress { get; set; }
-        [XmlElement(ElementName = "EmailAddr")]
-        public string EmailAddr { get; set; }
+        [XmlElement(ElementName = "EmailAddress")]
+        public string EmailAddress { get; set; }
     }
 }

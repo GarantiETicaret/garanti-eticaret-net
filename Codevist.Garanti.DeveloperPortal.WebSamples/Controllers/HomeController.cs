@@ -54,7 +54,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -102,7 +102,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -171,7 +171,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -242,7 +242,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -306,7 +306,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -358,7 +358,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -408,7 +408,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -457,7 +457,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -505,7 +505,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -554,7 +554,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -613,7 +613,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -673,7 +673,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -735,7 +735,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -797,7 +797,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -848,7 +848,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -895,10 +895,9 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             request.terminaluserid = "PROVAUT";
             request.terminalprovuserid = "PROVAUT";
             request.terminalmerchantid = "7000679";
-            //TODO: ERROR ADRESİNİ GÜNCELLE.
             request.successurl = "http://localhost:4336/Home/OOSSuccess";
             request.errorurl = "http://localhost:4336/Home/OOSError";
-            request.customeremailaddress = "fatih@codevist.com";
+            request.customeremailaddress = "eticaret@garanti.com.tr";
             request.customeripaddress = "127.0.0.1";
             request.secure3dsecuritylevel = "CUSTOM_PAY";
             request.orderid = orderID;
@@ -934,7 +933,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
              };
              request.Customer = new Customer()
              {
-                 EmailAddr = "fatih@codevist.com",
+                 EmailAddr = "eticaret@garanti.com.tr",
                  IPAddress = "127.0.0.1"
              };
              request.Order = new Order()
@@ -988,7 +987,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1045,7 +1044,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1096,7 +1095,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1146,7 +1145,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1194,7 +1193,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1266,7 +1265,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1314,7 +1313,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1366,7 +1365,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1423,7 +1422,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1481,7 +1480,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1538,7 +1537,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
 
@@ -1548,6 +1547,8 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             recurringRequest.FrequencyType = "D";  // tekrar tipi girilir. Günlük: D, Haftalık: W, Aylık: M, Yıllık: Y
             recurringRequest.Type = "R"; // tekrarlı işlem tipi
             recurringRequest.StartDate = "20181201"; //YYYYMMGG
+            recurringRequest.RecurringRetryAttemptCount = "10"; // red alan işlemin kaç gün tekrarlanacağı bilgisi
+            recurringRequest.RetryAttemptEmail = "eticaret@garanti.com.tr"; // işlem durumunun gönderileceği adres
 
             request.Order = new RecurringSalesOrderRequest()
             {
@@ -1597,7 +1598,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
 
@@ -1624,6 +1625,8 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             recurring.FrequencyType = "M";  // tekrar tipi girilir. Günlük: D, Haftalık: W, Aylık: M, Yıllık: Y
             recurring.Type = "R"; // değişken tekrarlı işlem tipi
             recurring.StartDate = "20181201"; // YYYYMMGG
+            recurring.RecurringRetryAttemptCount = "10"; // red alan işlemin kaç gün tekrarlanacağı bilgisi
+            recurring.RetryAttemptEmail = "eticaret@garanti.com.tr"; // işlem durumunun gönderileceği adres
 
             request.Order = new VRecurringSalesOrderRequest()
             {
@@ -1675,7 +1678,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1723,7 +1726,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
 
@@ -1794,7 +1797,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1852,7 +1855,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1909,7 +1912,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -1964,7 +1967,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2017,7 +2020,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
         //    };
         //    request.Customer = new Customer()
         //    {
-        //        EmailAddr = "fatih@codevist.com",
+        //        EmailAddress = "eticaret@garanti.com.tr",
         //        IPAddress = "127.0.0.1"
         //    };
 
@@ -2058,7 +2061,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
 
@@ -2108,7 +2111,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
 
@@ -2158,7 +2161,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
 
@@ -2209,7 +2212,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
 
@@ -2257,7 +2260,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2310,7 +2313,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2364,7 +2367,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2419,7 +2422,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2472,7 +2475,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2519,7 +2522,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2566,7 +2569,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new OrderListInqOrderRequest()
@@ -2616,7 +2619,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new BatchInqOrderRequest()
@@ -2665,7 +2668,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2718,7 +2721,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2765,7 +2768,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new CardtxnListInqOrderRequest()
@@ -2815,7 +2818,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2866,7 +2869,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -2919,7 +2922,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
 
             request.successurl = "http://localhost:4336/Home/Success";
             request.errorurl = "http://localhost:4336/Home/Error";
-            request.customeremailaddress = "fatih@codevist.com";
+            request.customeremailaddress = "eticaret@garanti.com.tr";
             request.customeripaddress = "127.0.0.1";
             request.secure3dsecuritylevel = "3D";
             request.orderid = orderID;
@@ -2964,7 +2967,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             request.terminalmerchantid = "7000679";
             request.successurl = "http://localhost:4336/Home/OOSSuccess";
             request.errorurl = "http://localhost:4336/Home/OOSError";
-            request.customeremailaddress = "fatih@codevist.com";
+            request.customeremailaddress = "eticaret@garanti.com.tr";
             request.customeripaddress = "127.0.0.1";
             request.secure3dsecuritylevel = secure3dsecuritylevel;
             request.orderid = orderID;
@@ -3004,10 +3007,9 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             request.terminaluserid = "PROVAUT";
             request.terminalprovuserid = "PROVAUT";
             request.terminalmerchantid = "7000679";
-            //TODO: ERROR ADRESİNİ GÜNCELLE.
             request.successurl = "http://localhost:4336/Home/OOSSuccess";
             request.errorurl = "http://localhost:4336/Home/OOSError";
-            request.customeremailaddress = "fatih@codevist.com";
+            request.customeremailaddress = "eticaret@garanti.com.tr";
             request.customeripaddress = "127.0.0.1";
             request.secure3dsecuritylevel = secure3dsecuritylevel;
             request.orderid = orderID;
@@ -3050,7 +3052,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             request.terminalmerchantid = "7000679";
             request.successurl = "http://localhost:4336/Home/OOSSuccess";
             request.errorurl = "http://localhost:4336/Home/OOSError";
-            request.customeremailaddress = "fatih@codevist.com";
+            request.customeremailaddress = "eticaret@garanti.com.tr";
             request.customeripaddress = "127.0.0.1";
             request.secure3dsecuritylevel = "OOS_PAY";
             request.orderid = orderID;
@@ -3091,10 +3093,9 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             request.terminaluserid = "PROVOOS";
             request.terminalprovuserid = "PROVOOS";
             request.terminalmerchantid = "3424113";
-            //TODO: ERROR ADRESİNİ GÜNCELLE.
             request.successurl = "http://localhost:4336/Home/GarantiPaySuccess";
             request.errorurl = "http://localhost:4336/Home/GarantiPayError";
-            request.customeremailaddress = "fatih@codevist.com";
+            request.customeremailaddress = "eticaret@garanti.com.tr";
             request.customeripaddress = "127.0.0.1";
             request.secure3dsecuritylevel = "CUSTOM_PAY";
             request.orderid = orderID;
@@ -3154,7 +3155,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -3193,7 +3194,8 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
                 GSMNumber = (gsmNumber == null ? "" : gsmNumber),
                 InstallmentOnlyForCommercialCard = "N",
                 TotalInstallmentCount = "2",
-                GPInstallments = installementList
+                GPInstallments = installementList,
+                ReturnUrl = "https://abc.abc.com/abc"
             };
 
             request.Transaction = new GarantiPayMOTransactionRequest()
@@ -3201,7 +3203,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
                 Amount = transactionAmount,
                 CurrencyCode = 949,
                 CardholderPresentCode = 0,
-                ReturnServerUrl = "",
+                ReturnServerUrl = "https://abc.abc.com/abc",
                 SubType = "sales",
                 Type = "gpdatarequest",
                 MotoInd = "Y",
@@ -3240,7 +3242,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -3278,7 +3280,8 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
                 GSMNumber = (gsmNumber == null ? "" : gsmNumber),
                 InstallmentOnlyForCommercialCard = "N",
                 TotalInstallmentCount = "2",
-                GPInstallments = installementList
+                GPInstallments = installementList,
+                ReturnUrl = "https://abc.abc.com/abc"
             };
 
             request.Transaction = new GarantiPayAppTransactionRequest()
@@ -3286,7 +3289,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
                 Amount = transactionAmount,
                 CurrencyCode = 949,
                 CardholderPresentCode = 0,
-                ReturnServerUrl = "",
+                ReturnServerUrl = "https://abc.abc.com/abc",
                 SubType = "sales",
                 Type = "gpdatarequest",
                 MotoInd = "N",
@@ -3325,7 +3328,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             };
             request.Customer = new Customer()
             {
-                EmailAddr = "fatih@codevist.com",
+                EmailAddress = "eticaret@garanti.com.tr",
                 IPAddress = "127.0.0.1"
             };
             request.Order = new Order()
@@ -3562,7 +3565,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
                     };
                     request.Customer = new Customer()
                     {
-                        EmailAddr = secure3DResponse.customerEmailAddress,
+                        EmailAddress = secure3DResponse.customerEmailAddress,
                         IPAddress = secure3DResponse.customerIpAddres
                     };
 
