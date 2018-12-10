@@ -2962,7 +2962,6 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             request.terminaluserid = "PROVOOS";
             request.terminalprovuserid = "PROVOOS";
             request.terminalmerchantid = "7000679";
-            //TODO: ERROR ADRESİNİ GÜNCELLE.
             request.successurl = "http://localhost:4336/Home/OOSSuccess";
             request.errorurl = "http://localhost:4336/Home/OOSError";
             request.customeremailaddress = "fatih@codevist.com";
@@ -2975,12 +2974,9 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             request.txncurrencycode = "949";
             request.storekey = "12345678";
             request.txntimestamp = DateTime.Now.Ticks.ToString();
-            request.cardnumber = creditCardNo;
-            request.cardexpiredatemonth = expireMonth;
-            request.cardexpiredateyear = expireYear;
-            request.cardcvv2 = cvv;
             request.lang = "tr";
-            request.refreshtime = "5";
+            request.refreshtime = "10";
+            request.companyname = "deneme";
 
             var form = Sale3DOOSPayRequest.Execute(request, settings3D);
             System.Web.HttpContext.Current.Response.Clear();
@@ -3052,7 +3048,6 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             request.terminaluserid = "PROVOOS";
             request.terminalprovuserid = "PROVOOS";
             request.terminalmerchantid = "7000679";
-            //TODO: ERROR ADRESİNİ GÜNCELLE.
             request.successurl = "http://localhost:4336/Home/OOSSuccess";
             request.errorurl = "http://localhost:4336/Home/OOSError";
             request.customeremailaddress = "fatih@codevist.com";
@@ -3065,10 +3060,9 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             request.txncurrencycode = "949";
             request.storekey = "12345678";
             request.txntimestamp = DateTime.Now.Ticks.ToString();
-            request.cardnumber = creditCardNo;
-            request.cardexpiredatemonth = expireMonth;
-            request.cardexpiredateyear = expireYear;
-            request.cardcvv2 = cvv;
+            request.refreshtime = "10";
+            request.lang = "tr";
+            request.companyname = "deneme";
 
             var form = SaleOOSPayRequest.Execute(request, settings3D);
             System.Web.HttpContext.Current.Response.Clear();

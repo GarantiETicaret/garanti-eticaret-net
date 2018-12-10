@@ -48,20 +48,14 @@ namespace Codevist.Garanti.DeveloperPortal.Core.Request
         public string customeripaddress { get; set; }
         [XmlElement("storekey")]
         public string storekey { get; set; }
-        [XmlElement("cardnumber")]
-        public string cardnumber { get; set; }
-        [XmlElement("cardexpiredatemonth")]
-        public string cardexpiredatemonth { get; set; }
-        [XmlElement("cardexpiredateyear")]
-        public string cardexpiredateyear { get; set; }
-        [XmlElement("cardcvv2")]
-        public string cardcvv2 { get; set; }
         [XmlElement("txntimestamp")]
         public string txntimestamp { get; set; }
         [XmlElement("lang")]
         public string lang { get; set; }
         [XmlElement("refreshtime")]
         public string refreshtime { get; set; }
+        [XmlElement("companyname")]
+        public string companyname { get; set; }
 
         public static string Execute(Sale3DOOSPayRequest request, Settings3D settings3D)
         {
@@ -87,11 +81,7 @@ namespace Codevist.Garanti.DeveloperPortal.Core.Request
             Data.Add("lang", request.lang);
             Data.Add("refreshtime", request.refreshtime);
             Data.Add("txntimestamp", request.txntimestamp);
-            Data.Add("cardnumber", request.cardnumber);
-            Data.Add("cardexpiredatemonth", request.cardexpiredatemonth);
-            Data.Add("cardexpiredateyear", request.cardexpiredateyear);
-            Data.Add("cardcvv2", request.cardcvv2);
-            Data.Add("storekey", request.storekey);
+            Data.Add("companyname", request.companyname);
 
             return Helper.PreparePOSTForm(settings3D.BaseUrl, Data);
         }
