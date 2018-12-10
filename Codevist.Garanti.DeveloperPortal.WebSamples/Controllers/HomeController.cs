@@ -2952,7 +2952,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
         }
 
         [HttpPost]
-        public ActionResult Sale3DOOSPay(string creditCardNo, string expireMonth, string expireYear, string cvv, string transactionAmount, string orderID, string secure3dsecuritylevel)
+        public ActionResult Sale3DOOSPay(string transactionAmount, string orderID, string secure3dsecuritylevel)
         {
             var request = new Sale3DOOSPayRequest();
 
@@ -3038,7 +3038,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
         }
 
         [HttpPost]
-        public ActionResult SaleOOSPay(string creditCardNo, string expireMonth, string expireYear, string cvv, string transactionAmount, string orderID)
+        public ActionResult SaleOOSPay(string transactionAmount, string orderID)
         {
             var request = new SaleOOSPayRequest();
 
