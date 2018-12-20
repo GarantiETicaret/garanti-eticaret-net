@@ -1205,7 +1205,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             var paymentRequest = new PaymentRequest()
             {
                 Number = 1,
-                DueDate = "20181214",
+                DueDate = "20181221",
                 Amount = "1200"
             };
 
@@ -3491,7 +3491,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             //Validation kontrolü yapılır.
             string hash = Request.Form.Get("hash");
             string hashParamsVal = "";
-            string storeKey = "12345678";
+            string storeKey = "12345678";  // kendi storekey değeri girilmelidir.
             string hashParams = Request.Form.Get("hashparams");
             bool valid = false;
 
