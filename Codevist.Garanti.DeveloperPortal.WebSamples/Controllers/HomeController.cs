@@ -1182,6 +1182,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             var request = new CommercialCardExtendedCreditRequest();
             request.Version = settings.Version;
             request.Mode = settings.Mode;
+            terminal.ID = "30690168";
             request.Terminal = terminal;
 
             request.Card = new Card()
@@ -1254,6 +1255,7 @@ namespace Codevist.Garanti.DeveloperPortal.WebSamples.Controllers
             var request = new CommercialCardPreauthRequest();
             request.Version = settings.Version;
             request.Mode = settings.Mode;
+            terminal.ID = "30690168";
             request.Terminal = terminal;
 
             request.Card = new Card()
